@@ -1,5 +1,7 @@
 # Titanic Survival Prediction
 
+## INTERN ID: CITS3946
+
 A Machine Learning Classification project using the Titanic dataset. This project focuses on data cleaning, exploratory data analysis (EDA), feature engineering, and survival prediction using multiple classification algorithms.
 
 ---
@@ -13,8 +15,6 @@ The project includes:
 * Data Cleaning & Preprocessing
 * Missing Value Handling
 * Exploratory Data Analysis (EDA)
-* Feature Encoding
-* Correlation Analysis
 * Logistic Regression
 * Decision Tree Classification
 * Random Forest Classification
@@ -25,20 +25,21 @@ The project includes:
 ## Dataset Information
 
 The dataset contains passenger information from the Titanic disaster.
+Link: https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 ### Features
 
-* PassengerId
-* Survived
-* Pclass
-* Name
-* Sex
-* Age
-* SibSp
-* Parch
-* Ticket
-* Fare
-* Cabin
+* PassengerId   
+* Survived       
+* Pclass         
+* Name         
+* Sex          
+* Age          
+* SibSp          
+* Parch         
+* Ticket      
+* Fare         
+* Cabin        
 * Embarked
 
 ### Data Cleaning
@@ -48,7 +49,6 @@ The following preprocessing steps were performed:
 * Removed duplicate records
 * Dropped the Cabin column due to excessive missing values
 * Filled missing Age values using the median age
-* Filled missing Embarked values using the mode
 * Encoded categorical variables (Sex and Embarked)
 * Removed non-informative columns such as PassengerId, Name, and Ticket
 
@@ -56,7 +56,7 @@ The following preprocessing steps were performed:
 
 ## Technologies Used
 
-* Python
+Python
 * Pandas
 * NumPy
 * Matplotlib
@@ -111,14 +111,6 @@ The following metrics were used:
 * Recall
 * F1-Score
 * Confusion Matrix
-
-### Model Comparison
-
-| Model               | Accuracy                   |
-| ------------------- | -------------------------- |
-| Logistic Regression | Generated during execution |
-| Decision Tree       | Generated during execution |
-| Random Forest       | Generated during execution |
 
 ---
 
