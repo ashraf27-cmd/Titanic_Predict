@@ -120,7 +120,7 @@ The following metrics were used:
 Titanic_Predict/
 │
 ├── Titanic.csv
-├── Titanic.py
+├── titanic_pred.py
 ├── README.md
 ├── LICENSE
 ├── .gitignore
