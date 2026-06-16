@@ -137,7 +137,6 @@ Titanic_Predict/
 
 ## Conclusion
 
-This project demonstrates a complete machine learning workflow, from data preprocessing and exploratory analysis to model training and evaluation. Multiple classification algorithms were implemented and compared to identify the most effective approach for predicting passenger survival.
-The analysis highlights the importance of passenger class, gender, and fare in determining survival outcomes and showcases practical applications of supervised machine learning techniques.
+This project demonstrates a complete machine learning workflow, from data preprocessing and exploratory analysis to model training and evaluation.The Analysis highlights the importance of passenger class, gender & fare in determining survival outcomes and showcases practical applications of supervised machine learning techniques.
 
 ---
